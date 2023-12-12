@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    /* padding: 3vw 3vw; */
+    height: 100vh;
+}
+#back{
+    width: 100%;
+    height: 100vh;
+    
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#top{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background: #000; */
+    
+}
+#workingarea{
+    width: 80%;
+    height: 100vh;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+#nav{
+ width: 100%;
+ padding: 20px 0;
+ display: flex;
+ justify-content: space-between;
+    align-items: center;
+}
+#nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'gilroy';
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase ;
+    pointer-events: all;
+}
+#nav-left,#nav-right {
+    display: flex;
+    align-items: center;
+    gap:60px;
+}
+#nav-left img{  
+    height: 60px;
+}
+#hero{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0%,-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#hero-left{
+    min-width: 50%;
+    
+}
+#hero-left .elem{
+    height: 9vw;
+    overflow: hidden;
+    /* background-color: red; */
+    position: relative;
+
+}
+#hero-left .elem h1:nth-child(1){
+ top:0;
+}
+#hero-left .elem h1{
+    line-height: .9;
+    font-family: "kajiro";
+    color:#fff;
+    font-weight: 100;
+    font-size: 11vw;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    
+}
+#hero-left button{
+    border:none;
+    font-family: "kajiro";
+    padding: 0.8vw 3vw;
+    margin-top: 3vw;
+    font-size: 2vw;
+    letter-spacing: 2;
+    pointer-events: all;
+}
+#hero-right{
+    width: 17%; 
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#hero-right p{
+    text-align: right;
+    font-weight: 300;
+    font-size: 1rem;
+    
+}
+
+#box{
+    width: 100%;
+    height: 170px;
+    /* background-color: rgb(191, 191, 191); */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-image: url(https://images.unsplash.com/photo-1702212796726-e631a72b5d36?q=80&w=1996&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hero-right p:nth-child(3){
+    margin-bottom: 100px;
+}
